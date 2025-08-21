@@ -54,6 +54,7 @@ abstract class AbstractBurmeseDetectionAccuracyReport(
         resources = ["/language-testdata/sentences/my.txt"],
         delimiter = CSV_FILE_DELIMITER,
         encoding = CSV_FILE_ENCODING,
+        maxCharsPerColumn = 20000,
     )
     @DisplayName("sentence detection")
     override fun `assert that entire sentences are identified correctly`(sentence: String) {

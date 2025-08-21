@@ -1,0 +1,17 @@
+##### BURMESE #####
+
+>>> Accuracy on average: 0.00%
+
+>> Detection of 52 single words (average length: 6 chars)
+Accuracy: 0.00%
+Erroneously classified as UNKNOWN: 84.62%, ICELANDIC: 13.46%, GREEK: 1.92%
+
+>> Detection of 23 word pairs (average length: 13 chars)
+Accuracy: 0.00%
+Erroneously classified as UNKNOWN: 73.91%, ICELANDIC: 21.74%, GREEK: 4.35%
+
+>> Detection of 882 sentences (average length: 285 chars)
+Accuracy: 0.00%
+Erroneously classified as UNKNOWN: 90.93%, BASQUE: 4.99%, SOMALI: 2.61%, ICELANDIC: 0.68%, INDONESIAN: 0.34%, GERMAN: 0.34%, LATVIAN: 0.11%
+
+>> Exact values: 0.0 0.0 0.0 0.0

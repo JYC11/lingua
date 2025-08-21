@@ -1,0 +1,17 @@
+##### BURMESE #####
+
+>>> Accuracy on average: 0.00%
+
+>> Detection of 52 single words (average length: 6 chars)
+Accuracy: 0.00%
+Erroneously classified as TURKISH: 82.69%, DANISH: 11.54%, UNKNOWN: 3.85%, GREEK: 1.92%
+
+>> Detection of 23 word pairs (average length: 13 chars)
+Accuracy: 0.00%
+Erroneously classified as CHINESE: 73.91%, PERSIAN: 13.04%, DANISH: 4.35%, GREEK: 4.35%, UNKNOWN: 4.35%
+
+>> Detection of 882 sentences (average length: 285 chars)
+Accuracy: 0.00%
+Erroneously classified as CHINESE: 37.98%, UNKNOWN: 32.31%, SERBIAN: 14.29%, TURKISH: 7.94%, KOREAN: 4.08%, PERSIAN: 1.81%, BOKMAL: 1.25%, LATVIAN: 0.23%, DANISH: 0.11%
+
+>> Exact values: 0.0 0.0 0.0 0.0
