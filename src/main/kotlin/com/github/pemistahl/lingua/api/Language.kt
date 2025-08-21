@@ -174,6 +174,8 @@ import com.github.pemistahl.lingua.api.IsoCode639_3.XHO
 import com.github.pemistahl.lingua.api.IsoCode639_3.YOR
 import com.github.pemistahl.lingua.api.IsoCode639_3.ZHO
 import com.github.pemistahl.lingua.api.IsoCode639_3.ZUL
+import com.github.pemistahl.lingua.api.IsoCode639_1.MY
+import com.github.pemistahl.lingua.api.IsoCode639_3.MYA
 import com.github.pemistahl.lingua.internal.Alphabet
 import com.github.pemistahl.lingua.internal.Alphabet.CYRILLIC
 import com.github.pemistahl.lingua.internal.Alphabet.DEVANAGARI
@@ -183,7 +185,7 @@ import com.github.pemistahl.lingua.internal.Alphabet.HAN
 import com.github.pemistahl.lingua.internal.Alphabet.HANGUL
 import com.github.pemistahl.lingua.internal.Alphabet.HIRAGANA
 import com.github.pemistahl.lingua.internal.Alphabet.KATAKANA
-import com.github.pemistahl.lingua.internal.Alphabet.LATIN
+import com.github.pemistahl.lingua.internal.Alphabet.BURMESE
 import com.github.pemistahl.lingua.internal.Alphabet.NONE
 import com.github.pemistahl.lingua.internal.util.extension.enumSetOf
 import java.util.EnumSet
@@ -209,6 +211,8 @@ enum class Language(
     BOKMAL(NB, NOB, enumSetOf(Alphabet.LATIN), null),
     BOSNIAN(BS, BOS, enumSetOf(Alphabet.LATIN), null),
     BULGARIAN(BG, BUL, enumSetOf(CYRILLIC), null),
+    // TODO
+    BURMESE(MY, MYA, enumSetOf(Alphabet.BURMESE), null),
     CATALAN(CA, CAT, enumSetOf(Alphabet.LATIN), "Ïï"),
     CHINESE(ZH, ZHO, enumSetOf(HAN), null),
     CROATIAN(HR, HRV, enumSetOf(Alphabet.LATIN), null),
