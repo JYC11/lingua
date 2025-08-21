@@ -190,3 +190,18 @@ object TestDataFilesWriter : FilesWriter() {
         }
     }
 }
+
+//fun main() {
+//    val inputFilePath = Paths.get("/Users/admin/Desktop/work/lingua/burmese.txt")
+//    val outputDirectoryPath = Paths.get("/Users/admin/Desktop/work/lingua/test-data-output")
+//
+//    TestDataFilesWriter.createAndWriteTestDataFiles(
+//        inputFilePath = inputFilePath,
+//        outputDirectoryPath = outputDirectoryPath,
+//        language = Language.BURMESE,
+//        maximumLines = 1000 // Adjust this number based on your needs
+//
+//    )
+//
+//    println("Test data files created successfully!\n")
+//}

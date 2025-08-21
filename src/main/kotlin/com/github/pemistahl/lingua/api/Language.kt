@@ -211,8 +211,12 @@ enum class Language(
     BOKMAL(NB, NOB, enumSetOf(Alphabet.LATIN), null),
     BOSNIAN(BS, BOS, enumSetOf(Alphabet.LATIN), null),
     BULGARIAN(BG, BUL, enumSetOf(CYRILLIC), null),
-    // TODO
-    BURMESE(MY, MYA, enumSetOf(Alphabet.BURMESE), null),
+    BURMESE(
+        MY,
+        MYA,
+        enumSetOf(Alphabet.BURMESE),
+        "ကခဂဃငစဆဇဈဉညတထဒဓနပဖဗဘမယရလဝသဟဠအါာိီုူေေါံ့း်၀၁၂၃၄၅၆၇၈၉",
+    ),
     CATALAN(CA, CAT, enumSetOf(Alphabet.LATIN), "Ïï"),
     CHINESE(ZH, ZHO, enumSetOf(HAN), null),
     CROATIAN(HR, HRV, enumSetOf(Alphabet.LATIN), null),
