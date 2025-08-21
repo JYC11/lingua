@@ -138,16 +138,3 @@ object LanguageModelFilesWriter : FilesWriter() {
         }
     }
 }
-
-//fun main() {
-//    val inputFilePath = Paths.get("/Users/admin/Desktop/work/lingua/burmese.txt")
-//    val outputDirectoryPath = Paths.get("/Users/admin/Desktop/work/lingua/language-models-output")
-//
-//    LanguageModelFilesWriter.createAndWriteLanguageModelFiles(
-//        inputFilePath = inputFilePath,
-//        outputDirectoryPath = outputDirectoryPath,
-//        language = Language.BURMESE
-//    )
-//
-//    println("Language model files created successfully!")
-//}
