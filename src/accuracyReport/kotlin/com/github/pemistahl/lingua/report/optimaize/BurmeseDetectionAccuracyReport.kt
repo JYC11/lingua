@@ -19,4 +19,5 @@ package com.github.pemistahl.lingua.report.optimaize
 import com.github.pemistahl.lingua.report.LanguageDetectorImplementation.OPTIMAIZE
 import com.github.pemistahl.lingua.report.config.AbstractBurmeseDetectionAccuracyReport
 
+// Straight up does not work with Burmese so can't generate accuracy report like other languages
 class BurmeseDetectionAccuracyReport : AbstractBurmeseDetectionAccuracyReport(OPTIMAIZE)
